@@ -2,14 +2,69 @@
 <html lang="en">
 <head>
      <meta charset="UTF-8">
+     <!--Include meta tags  -->
+     <meta name="author" content="Thomas E. Kremer">
+     <meta name="description" content="This is a very simple calculator application using DOM Manipulation.">
+     <meta name="keywords" content="Babel, Bootstrap, CSS, ESLint, Flexbox, HTML, JavaScript, jQuery, DOM Manipulation">
 
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      
-     
+     <!-- Bring in google fonts -->
+     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+      
+     <!-- Bring in bootstrap  -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+     <!-- Bring in my style sheet and my javascript file -->
+     <link rel="stylesheet" href="src/assets/css/calculator.css">
+     <script src="src/javascript/index.js" defer></script>
+
      <title>Simple Calculator</title>
 </head>
 <body>
-     
+     <nav class="navbar">
+          <div class="logo-container">
+               <a href="#webtek-info">
+                    <img src="src/assets/images/seethrough_1.png" alt="seethrough_1" class="logo-image">
+                    <span class="logo-text">WebTek</span>
+               </a>
+          </div>
+          <ul class="nav-list" id="navi-list">
+               <li class="list-item">
+                    <a href="#about-me">About Us</a>
+               </li>
+               <li class="list-item">
+                    <a href="#contact-us">Contact</a>
+               </li>
+               <li class="list-item">
+                    <a href="#contact-us">Support</a>
+               </li>
+          </ul>
+          <!-- <div class="menu" id="toggle-menu" onclick="toggleMenu()"> -->
+               <div class="menu" id="toggle-menu">
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+               </div>
+     </nav>
+     <div class="main-content">
+
+     </div>
+     <div class="footer-container-fluid">
+          <div class="logo-copyright">
+               <img src="src/assets/images/seethrough_1.png" alt="seethrough_1" class="footer-logo">
+               <span class="footer-text">WebTek</span>
+          </div>
+          <div class="webmaster-contact" id="webtek-info">
+               <span class="footer-info">This page created and designed by</span>
+               <a href="mailto: tkremer@nc.rr.com" class="webmaster" id="contact">
+                    Thomas E. Kremer
+               </a>
+          </div>
+     </div>
+     <script></script>
 </body>
 </html>
