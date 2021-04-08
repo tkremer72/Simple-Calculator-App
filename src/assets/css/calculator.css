@@ -89,7 +89,7 @@
      background-color: #FFFFFF;
      text-align: center;
 }
-.calculator {
+.calculator-container-fluid {
      background-color: darkslategrey;
      border: 1px solid #ccc;
      border-radius: 10px;
@@ -165,9 +165,16 @@ button:hover {
 /* Devices smaller than 480 pixels wide */
 @media all and (max-width: 480px) {
      /* Center main content */
-/*      .calculator {
-       
-     } */
+     .calculator-container-fluid {
+          background-color: darkslategrey;
+          border: 1px solid #ccc;
+          border-radius: 10px;
+          position: absolute;
+          top: 60%;
+          left: 52%;
+          transform: translate(-50%, -50%);
+          width: 300px
+     }
      /* Header and navigation */
      .navbar {
           flex-direction: column;
