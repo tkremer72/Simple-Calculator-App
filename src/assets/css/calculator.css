@@ -170,73 +170,104 @@ button:hover {
           border: 1px solid #ccc;
           border-radius: 10px;
           position: absolute;
-          top: 60%;
+          top: 40%;
           left: 52%;
           transform: translate(-50%, -50%);
           width: 300px
      }
      /* Header and navigation */
-     .navbar {
+      /* Style the navigation and the header */
+        .navbar {
           flex-direction: column;
           position: relative;
-     }
-     .logo-container {
-          width: 100%;
+        }
+        .logo-container {
           margin-left: 25px;
           margin-top: 10px;
           margin-bottom: 5px;
-     }
-     /* Show the menu  */
-     .menu {
-          display: block;
-          position: absolute;
-          right: 25px;
-          top: 30px;
-     }
-     .nav-list {
-          list-style: none;
-          width: 100%;
-          text-align: center;
-          padding: 20px;
-          display: none;
-     }
-     .nav-list .list-item {
-          display: block;
-          border-top: 1px solid rgba(0, 0, 0, 1);
-          padding: 10px;
-     }
-     /* Footer container and logo text */
-     .footer-container-fluid {
-          padding: 10px;
-          flex-direction: column;
-          width: 100%;
-          height: 125px;
-     }
-     /* logo and logo text */
-     .footer-logo {
-          margin-top: 5px;
-          width: 45px;
-          height: auto;
-     }
-     .footer-text {
-          font-size: 28px;
-     }
-     .webmaster-contact {
-          padding: 0;
-          margin: 0;
-     }
-     .footer-info {
-          margin: 0;
-          padding: 0;
-          font-size: 17px;
-          line-height: 21px;
-     }
-     .webmaster {
-          font-size: 16px;
-          color: #94A2FB;
-     }
-     /* Show the hamburger menu */
-     .active {
-          display: block;
-     }
+        }
+      /* Show menu */
+      .menu {
+        display: none;
+        position: absolute;
+        right: 25px;
+        top: 30px;
+      }
+      .nav-list {
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        display: none;
+      }
+      .nav-list .list-item {
+        display: block;
+        border-top: 1px solid black;
+        padding: 10px;
+      }
+      /* Style the footer container and information */
+      .footer-container-fluid {
+        padding: 10px;
+        flex-direction: column;
+        width: 100%;
+        height: 125px;
+      }
+      /* Style the logo and logo text */
+      .footer-logo {
+        margin-top: 5px;
+        width: 45px;
+        height: auto;
+      }
+      .footer-text {
+        font-family: Montserrat Alternates;
+        font-weight: 600;
+        font-style: none;
+        font-size: 28px;
+        line-height: 32px;
+        letter-spacing: 0.03em;
+      }
+      .webmaster-contact {
+        padding: 0;
+        margin: 0;
+      }
+      .footer-info {
+        margin: 0;
+        padding: 0;
+        font-family: Poppins;
+        font-weight: 200;
+        font-size: 17px;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+      }
+      .webmaster {
+        font-family: Poppins;
+        font-weight: 200;
+        font-size: 16px;
+        color: #94A2FB;
+      }
+      
+      h2 {
+        margin: 0;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 48px;
+        letter-spacing: 0.03em;
+        font-style: normal;
+        text-align: center;
+      }
+      h3 {
+        margin-top: 25px;
+        font-family: Poppins;
+        font-weight: 200;
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: 0.03em;
+        font-style: normal;
+        text-align: center;
+      }
+      /* Show the hamburger menu  */
+      .active {
+        display: block;
+      }
 }
